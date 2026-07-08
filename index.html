@@ -50,6 +50,7 @@
             display: flex;
             flex-direction: column;
             gap: 15px;
+            margin-bottom: 35px;
         }
         .btn {
             display: block;
@@ -68,6 +69,31 @@
             color: #f0f6fc;
             transform: translateY(-2px);
         }
+        .projects-section {
+            text-align: left;
+            border-top: 1px solid #30363d;
+            padding-top: 25px;
+        }
+        .projects-section h3 {
+            color: #f0f6fc;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+        .project-card {
+            background-color: #0d1117;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+        }
+        .project-card h4 {
+            color: #58a6ff;
+            margin-bottom: 5px;
+        }
+        .project-card p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+            line-height: 1.4;
+        }
     </style>
 </head>
 <body>
@@ -80,8 +106,18 @@
         
         <div class="links">
             <a href="https://github.com" target="_blank" class="btn">Meu GitHub</a>
-            <a href="mailto:levialves.dev@gmail.com" class="btn">E-mail Profissional</a>
-            <a href="#" target="_blank" class="btn">LinkedIn (Adicione seu link aqui)</a>
+            <!-- Link do e-mail direto para o Gmail na web para evitar travamentos -->
+            <a href="https://google.com" target="_blank" class="btn">Me Enviar um E-mail</a>
+            <!-- Substitua o link abaixo pelo endereço real do seu perfil do LinkedIn -->
+            <a href="https://linkedin.com" target="_blank" class="btn">Meu LinkedIn</a>
+        </div>
+
+        <div class="projects-section">
+            <h3>💻 Projetos em Destaque</h3>
+            <div class="project-card">
+                <h4>Meu Portfólio Profissional</h4>
+                <p>Website responsivo desenvolvido em HTML e CSS, hospedado no GitHub Pages para centralizar minhas redes sociais e projetos.</p>
+            </div>
         </div>
     </div>
 
